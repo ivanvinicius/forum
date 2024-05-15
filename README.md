@@ -1,4 +1,4 @@
-Exemplo do App de receitas rodando em produção: https://www.cookinplus.com/
+## Exemplo do App de receitas rodando em produção: https://www.cookinplus.com/
 
 Meu sistema é composto por um backend, um dashboard (feito para os admin cadastrar as receitas)
 e um client, para os clientes da plataforma verem as receitas.
@@ -12,17 +12,21 @@ OBS: Todas as váriaveis ambiente do .env já estão preenchidas
 Instruções
 
 # Banco
-1 - Subir backup no banco postgres
-2 - Nome do banco deve ser - cookinplus
-3 - Você pode ver a UML dentro da api/database/uml/PICTURE
-4 - As imagens ficam salvas dentro tmp/uplodas
+<ul>
+  <li>Subir backup no banco postgres</li>
+  <li>Nome do banco deve ser - cookinplus</li>
+</ul>
 
 # API
-1 - yarn para baixar a node_modules
-2 - Ver .env para conectar o banco
-3 - Já está funcionando
+<ul>
+  <li>yarn para baixar a node_modules</li>
+  <li>Ver .env para conectar o banco</li>
+  <li>Você pode ver a UML dentro da api/database/uml/PICTURE</li>
+  <li>As imagens ficam salvas dentro tmp/uplodas</li>
+</ul>
 
 # Client
-1 - yarn para baixar a node_modules
-2 - Ver .env para conectar o banco
-3 - Já está funcionando
+<ul>
+  <li>yarn para baixar a node_modules</li>
+  <li>Ver .env para conectar a api</li>
+</ul>

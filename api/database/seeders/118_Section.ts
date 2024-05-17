@@ -7,7 +7,7 @@ export default class extends BaseSeeder {
     await Model.createMany([
       {
         id: 'd5483654-6560-4a13-ae55-f6facfce4499',
-        name: 'Massa',
+        name: 'Base',
       },
     ])
   }

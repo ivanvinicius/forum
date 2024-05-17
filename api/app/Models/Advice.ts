@@ -22,9 +22,6 @@ export default class Advice extends BaseModel {
   public description: string
 
   @column()
-  public active: boolean
-
-  @column()
   public nutritionistId: string
 
   @column()
